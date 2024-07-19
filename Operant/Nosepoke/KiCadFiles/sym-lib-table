@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NosePokeV1.0-rescue")(type "KiCad")(uri "${KIPRJMOD}/NosePokeV1.0-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "NosePokeV-rescue")(type "KiCad")(uri "${KIPRJMOD}/NosePokeV-rescue.kicad_sym")(options "")(descr ""))
+)

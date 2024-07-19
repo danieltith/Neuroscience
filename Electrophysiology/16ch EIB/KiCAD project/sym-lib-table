@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eib-16-rescue")(type "KiCad")(uri "${KIPRJMOD}/eib-16-rescue.kicad_sym")(options "")(descr ""))
+)
