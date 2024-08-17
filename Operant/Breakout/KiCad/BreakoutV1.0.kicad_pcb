@@ -516,7 +516,7 @@
 			(net 121 "MULT+")
 			(uuid "1596a047-bec8-4fc8-8263-7fa37e5e5dde")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\G3VM-202J1.stp"
+		(model "${SAMYSYS}/G3VM-202J1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -524,7 +524,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 90)
 			)
 		)
 	)
@@ -2113,6 +2113,17 @@
 			(net 4 "+5V")
 			(uuid "fe9eaa15-8ad3-47a5-a014-e88199030119")
 		)
+		(model "${SAMYSYS}/MBR120VLSFT3G.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "SamacSys_Parts:PGB1010603MR"
 		(layer "F.Cu")
@@ -2144,7 +2155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b01eb6e6-a52c-4d03-a44a-2b0a96c32dd8")
@@ -2156,7 +2167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ae2ff85-81d0-4199-934f-83fa3a5780fa")
@@ -2168,7 +2179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11841d14-fb1f-4f93-a275-3aacd262b817")
@@ -2348,6 +2359,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 8 "CC1")
 			(uuid "c81d9515-e575-40b6-aae0-c6a09ebc9d3f")
+		)
+		(model "E:/Downloads/IND_PGB_0603_LTF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "SamacSys_Parts:PGB1010603MR"
@@ -2940,7 +2962,7 @@
 			(net 1 "GND")
 			(uuid "b9a3d139-86d2-486b-917f-ed064f1b2fba")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\STUSB4500QTR.stp"
+		(model "${SAMYSYS}/STUSB4500QTR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3226,7 +3248,7 @@
 			(net 121 "MULT+")
 			(uuid "d3f25a4a-8de7-492b-89c0-d03a69348ff4")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\G3VM-202J1.stp"
+		(model "${SAMYSYS}/G3VM-202J1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3234,7 +3256,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 90)
 			)
 		)
 	)
@@ -3564,6 +3586,17 @@
 			(size 0.4 0.53)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "0402c380-3c85-4b3e-b1fd-5c47b2560633")
+		)
+		(model "E:/Downloads/POWERFLAT_3P3X3P3_STM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -5881,7 +5914,7 @@
 			(net 143 "Net-(S1-Pad4)")
 			(uuid "51d51a12-409f-49b6-bedd-bd04b4f004ba")
 		)
-		(model "${KIPRJMOD}/libs/3d/B3FS_1000.step"
+		(model "E:/OneDrive/OneDrive - University of Bristol/Circuit Boards/OperantEquipment/PCBSymbols/Lustigkicad-libraries-master/3d/B3FS_1000.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5900,7 +5933,7 @@
 		(descr "Surface Mount Tactile Switch for High-Density Packaging")
 		(tags "Tactile Switch")
 		(property "Reference" "S2"
-			(at -3.95478 -0.00254 180)
+			(at -3.95478 -0.00254 0)
 			(layer "F.SilkS")
 			(uuid "c0082d99-883d-4113-a4a6-12e4024515c8")
 			(effects
@@ -5922,7 +5955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37c3dd2a-3313-447c-a7cd-82d28ee32355")
@@ -5934,7 +5967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dff9f7e1-f7be-4e28-8e3c-80bfc01c091d")
@@ -5946,7 +5979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4f0dce5-d49c-4024-a9c2-ecdd987e6c49")
@@ -6169,7 +6202,7 @@
 			(net 145 "Net-(S2-Pad4)")
 			(uuid "ee696005-04dc-48c9-a8f8-8fef7b7b95c7")
 		)
-		(model "${KIPRJMOD}/libs/3d/B3FS_1000.step"
+		(model "E:/OneDrive/OneDrive - University of Bristol/Circuit Boards/OperantEquipment/PCBSymbols/Lustigkicad-libraries-master/3d/B3FS_1000.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6457,7 +6490,7 @@
 			(net 63 "Net-(IC4-Pad6)")
 			(uuid "b8b840f3-97cd-47e4-8ebf-f7ac42a03792")
 		)
-		(model "${KIPRJMOD}/libs/3d/B3FS_1000.step"
+		(model "E:/OneDrive/OneDrive - University of Bristol/Circuit Boards/OperantEquipment/PCBSymbols/Lustigkicad-libraries-master/3d/B3FS_1000.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6818,7 +6851,7 @@
 			(net 121 "MULT+")
 			(uuid "aa323ea0-c20a-48e6-a27d-3b29bdecb32d")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\G3VM-202J1.stp"
+		(model "${SAMYSYS}/G3VM-202J1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6826,7 +6859,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 90)
 			)
 		)
 	)
@@ -7789,7 +7822,7 @@
 			(net 10 "I1_POWA")
 			(uuid "8001e678-16d7-4c65-aa6c-fff58000f4d4")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\TBD62083AFNG,EL.stp"
+		(model "${SAMYSYS}/TBD62083AFNG,EL.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8145,7 +8178,7 @@
 			(net 26 "P4_POWA")
 			(uuid "e20bcaeb-b2eb-41f9-88bb-6637b2be3112")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\TBD62083AFNG,EL.stp"
+		(model "${SAMYSYS}/TBD62083AFNG,EL.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8501,7 +8534,7 @@
 			(net 40 "P1_POWA")
 			(uuid "70d7c834-9fbe-4eec-85e9-2a3bbd31c9a4")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\TBD62083AFNG,EL.stp"
+		(model "${SAMYSYS}/TBD62083AFNG,EL.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10942,7 +10975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "337d7ea9-e340-44a8-96e0-b73792c1cf40")
@@ -10954,7 +10987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b590ccb-ce44-472d-a4dd-a04044444976")
@@ -10966,7 +10999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "340106e4-3cb0-4073-98fe-c6e727fdb6e7")
@@ -11114,7 +11147,7 @@
 			(net 166 "Net-(C4-Pad2)")
 			(uuid "81edd4da-5e49-4daa-b7b0-3397177e4df0")
 		)
-		(model "C:\\Users\\dt17201\\OneDrive - University of Bristol\\Documents\\KiCAD imports\\SamacSys_Parts.3dshapes\\BAT60AE6327HTSA1.stp"
+		(model "${SAMYSYS}/BAT60AE6327HTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11976,6 +12009,17 @@
 			(net 9 "CC2")
 			(uuid "97dc5cc5-b013-43d9-91fc-0d45cb760f62")
 		)
+		(model "E:/Downloads/IND_PGB_0603_LTF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "asl_footprints:Hirose_40_pin"
 		(layer "F.Cu")
@@ -12141,6 +12185,17 @@
 			(layer "Eco2.User")
 			(uuid "8c5e2745-05e8-402e-85f9-7f4e1a5975b7")
 		)
+		(model "E:/OneDrive/OneDrive - University of Bristol/Circuit Boards/OperantEquipment/PCBSymbols/Lustigkicad-libraries-master/3d/DF40HC_4.0_-40DS.stp"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 0)
+			)
+		)
 	)
 	(footprint "asl_footprints:Hirose_40_pin"
 		(layer "F.Cu")
@@ -12305,6 +12360,17 @@
 			)
 			(layer "Eco2.User")
 			(uuid "a0b63110-0e23-4690-9d1f-24041288acb0")
+		)
+		(model "E:/OneDrive/OneDrive - University of Bristol/Circuit Boards/OperantEquipment/PCBSymbols/Lustigkicad-libraries-master/3d/DF40HC_4.0_-40DS.stp"
+			(offset
+				(xyz 0 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 0)
+			)
 		)
 	)
 	(footprint "RatPub:diodesymbol"
@@ -12791,6 +12857,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 3 "VBUS")
 			(uuid "1a8408e9-913a-4b75-88ea-b5251509d3f1")
+		)
+		(model "E:/Downloads/IND_PGB_0603_LTF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -14752,15 +14829,15 @@
 			(net 1 "GND")
 			(uuid "5a8b52de-9ae6-413e-a255-91260b0d6af4")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470510.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -15190,15 +15267,15 @@
 			(net 1 "GND")
 			(uuid "acd78833-2ce0-452d-b21c-b60f18d06e25")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470510.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -15628,15 +15705,15 @@
 			(net 1 "GND")
 			(uuid "cde36642-006a-416e-8f84-289ce921672f")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470510.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -16057,15 +16134,15 @@
 			(net 73 "SPI_SS")
 			(uuid "1b7c028f-d349-426f-80fc-9cf9700c16a1")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470410.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.9 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -16468,15 +16545,15 @@
 			(net 1 "GND")
 			(uuid "21bccc78-ef66-425e-9ec5-0eb510d516dd")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -16879,15 +16956,15 @@
 			(net 1 "GND")
 			(uuid "b7f31325-2834-4e5d-967a-7507dceec37c")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -19421,7 +19498,7 @@
 			)
 		)
 		(property "Value" "MUSBRM1C130"
-			(at 5.725 -5.48 -90)
+			(at 5.725 -5.48 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "09a3c20b-9a2f-4f4d-b3ae-e842b8ef4ccc")
@@ -19434,7 +19511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3a437b0-674c-4965-ae96-c72bbc224642")
@@ -19446,7 +19523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c27c193f-6210-49a7-ab6e-228605588ec6")
@@ -19458,7 +19535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef652437-ad19-4b73-a4fe-6bc44da964a2")
@@ -19692,7 +19769,7 @@
 			(uuid "6f7ca201-0fe9-49a8-b6c6-c41f9ecfaecf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.725 -5.48 -90)
+			(at 5.725 -5.48 90)
 			(layer "B.Fab")
 			(uuid "50c66da2-e2e4-4b0d-a91d-6dfdf30df87a")
 			(effects
@@ -19990,6 +20067,17 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(uuid "3401ed48-66ea-4627-84d5-156bb34c2573")
+		)
+		(model "E:/Downloads/M-MUSBR-M1C1-X0-REVT3.STEP"
+			(offset
+				(xyz 5.75 -10.5 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 180)
+			)
 		)
 	)
 	(footprint "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
@@ -20391,15 +20479,15 @@
 			(net 1 "GND")
 			(uuid "c499fa1c-c755-471d-b04a-8961b6bfb109")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -21617,15 +21705,15 @@
 			(net 5 "+12V")
 			(uuid "556300f5-fff6-46bc-af48-5c20d4161f63")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -22029,15 +22117,15 @@
 			(net 5 "+12V")
 			(uuid "f370f216-b064-40c2-ba79-7ac238aed097")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -22441,15 +22529,15 @@
 			(net 5 "+12V")
 			(uuid "e462e3ef-23ed-4ab2-81b6-f77f1b054bb7")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -22853,15 +22941,15 @@
 			(net 5 "+12V")
 			(uuid "efe792ad-6882-4031-be07-1d67027cf0f9")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -23265,15 +23353,15 @@
 			(net 5 "+12V")
 			(uuid "b845afad-3c5a-45db-894c-2785c5bc7968")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -23677,15 +23765,15 @@
 			(net 5 "+12V")
 			(uuid "565557a6-7563-4b77-be69-4399cc4a7f4a")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -24089,15 +24177,15 @@
 			(net 5 "+12V")
 			(uuid "db99aa1d-1d14-4895-aa2c-93752368c238")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -24501,15 +24589,15 @@
 			(net 5 "+12V")
 			(uuid "62c7a3be-2e75-4f2e-b28c-832aa711ef6b")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -24913,15 +25001,15 @@
 			(net 5 "+12V")
 			(uuid "7a0fb996-738d-4e8c-b1d3-fd55cb9393d5")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -25182,7 +25270,7 @@
 			(net 4 "+5V")
 			(uuid "133c913f-0df5-426d-9364-d50a7efb68cf")
 		)
-		(model "${KISYS3DMOD}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78E-0.5_THT.wrl"
+		(model "${SAMYSYS}/R-78E12-1.0_X9.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25593,15 +25681,15 @@
 			(net 1 "GND")
 			(uuid "ec6e6806-74fa-4dee-b3ba-93538cee24fa")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -26004,15 +26092,15 @@
 			(net 1 "GND")
 			(uuid "b397a23b-4936-42d1-b467-51f1b955ae8a")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -26415,15 +26503,15 @@
 			(net 1 "GND")
 			(uuid "c822043c-9079-49c8-9336-30d887fdeebc")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -27597,15 +27685,15 @@
 			(net 89 "BNC2")
 			(uuid "e8332ba2-8571-44df-a3f3-87112c81e143")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470410.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.9 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -28387,15 +28475,15 @@
 			(net 62 "U_SCL")
 			(uuid "c4f319c0-d016-461f-8910-678cea33d921")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470410.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.9 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -29067,15 +29155,15 @@
 			(net 102 "I2C_SDA")
 			(uuid "bc9eeae8-b8eb-4745-9b70-0c81e06df7f9")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical.wrl"
+		(model "E:/Downloads/530470210_stp/530470210.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.6 -1.15 5.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 0)
 			)
 		)
 	)
